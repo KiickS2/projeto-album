@@ -23,7 +23,7 @@ function App() {
       }
     });
 
-    setPhotos(response.data)
+    setPhotos(response.data)  
   }
 
   useEffect(() => {
