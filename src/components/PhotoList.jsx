@@ -1,9 +1,14 @@
 import React from 'react'
+import Photo from './Photo'
 
-const PhotoList = () => {
-  return (
-    <div>PhotoList</div>
-  )
+const PhotoList = ({ photos }) => {
+    return (
+        <div className='album'>
+            {photos.map((photo) => (
+                <Photo key={photo.id} data={photo}/>
+            ))}
+        </div>
+    )
 }
 
 export default PhotoList

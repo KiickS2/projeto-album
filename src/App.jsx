@@ -16,13 +16,14 @@ function App() {
 
     const apiKey = import.meta.env.VITE_UNSPLASH_API_KEY;
 
-    const response = axios.get('https://api.unsplash.com/photos/random', {
+    const response = await axios.get('https://api.unsplash.com/photos/random', {
       params: {
         client_id: apiKey,
         count: 12,
       }
     });
 
+    setPhotos(response.data)
   }
 
   useEffect(() => {
