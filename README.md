@@ -32,6 +32,11 @@ Projeto de Álbum de Fotos desenvolvido em React, JavaScript, HTML e CSS. A pág
 
 ## Imagens
 
+### Realizando pesquisas através do seletor de categorias:
+
 ![Álbum de Fotos - Pesquisas por Categoria](public/albumhome.png)
+
+
+### Realizando pesquisas através da barra de pesquisa:
 
 ![Álbum de Fotos - Pesquisas pela Barra de Pesquisa](public/querySearch.png)
